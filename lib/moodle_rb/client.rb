@@ -41,5 +41,9 @@ module MoodleRb
     def grades
       MoodleRb::Grades.new(token, url)
     end
+
+    def groups
+      MoodleRb::Groups.new(token, url)
+    end
   end
 end

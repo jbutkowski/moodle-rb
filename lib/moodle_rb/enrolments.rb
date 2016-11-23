@@ -23,7 +23,8 @@ module MoodleRb
               '0' => {
                 :userid => params[:user_id],
                 :courseid => params[:course_id],
-                :roleid => STUDENT_ROLE_ID
+                :roleid => STUDENT_ROLE_ID,
+                :timestart => Time.now.to_i
               }
             }
           }

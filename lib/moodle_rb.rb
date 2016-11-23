@@ -8,6 +8,7 @@ require 'moodle_rb/categories'
 require 'moodle_rb/enrolments'
 require 'moodle_rb/grades'
 require 'moodle_rb/users'
+require 'moodle_rb/groups'
 
 module MoodleRb
   def self.new(token, url)
